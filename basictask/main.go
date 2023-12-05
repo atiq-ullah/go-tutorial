@@ -23,8 +23,8 @@ func main() {
 	tasks = append(tasks, Task{ title: "Rule the world", done: false })
 	fmt.Println(tasks)
 
-	for _, t := range tasks {
-		t.complete()
+	for i := range tasks {
+		tasks[i].complete()
 	}
 
 	fmt.Println(tasks)
