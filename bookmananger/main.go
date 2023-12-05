@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Hello, World!")
+
+	m := newBook("Fake Title", "Fake Author", 1993)
+	m.print()
 }
